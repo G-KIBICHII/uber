@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import arrowDown from "@/assets/icons/arrow-down.png";
 import arrowUp from "@/assets/icons/arrow-up.png";
 import backArrow from "@/assets/icons/back-arrow.png";
@@ -42,7 +43,6 @@ export const images = {
   noResult,
   message,
 };
-
 export const icons = {
   arrowDown,
   arrowUp,
