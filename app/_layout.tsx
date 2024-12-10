@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useFonts } from "expo-font";
 import { SplashScreen, Stack } from "expo-router";
 import { useEffect } from "react";
@@ -8,11 +9,11 @@ import { LogBox } from "react-native";
 
 const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY!;
 
-if (!publishableKey) {
-  throw new Error(
-    "Missing Publishable Key. Please set EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY in your .env",
-  );
-}
+// if (!publishableKey) {
+//   throw new Error(
+//     "Missing Publishable Key. Please set EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY in your .env",
+//   );
+// }
 
 LogBox.ignoreLogs(["Clerk:"]);
 
@@ -29,7 +30,7 @@ export default function RootLayout() {
 
   useEffect(() => {
     if (loaded) {
-      SplashScreen.hide(Async);
+      // SplashScreen.hide(Async);
     }
   }, [loaded]);
 
