@@ -43,6 +43,7 @@ export const images = {
   noResult,
   message,
 };
+
 export const icons = {
   arrowDown,
   arrowUp,
