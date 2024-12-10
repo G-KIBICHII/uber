@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { router } from "expo-router";
 import { useRef, useState } from "react";
 import { Image, Text, TouchableOpacity, View } from "react-native";
